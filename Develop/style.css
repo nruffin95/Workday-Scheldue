@@ -70,4 +70,20 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-/* Style Overrides For Bootstrap */
+/* Colors for textarea to change depending on time  */
+
+.present {
+  background-color: red;
+  color: white;
+}
+
+.future {
+  background-color: green;
+  color: white;
+}
+
+.past {
+  background-color: gray;
+  color: white;
+}
+
