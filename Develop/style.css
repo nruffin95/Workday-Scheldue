@@ -71,24 +71,3 @@ textarea{
 }
 
 /* Style Overrides For Bootstrap */
-
-.border-1 {
-  border-top: dotted;
-  border-right: 1px solid black;
-}
-
-.text-1 {
-  display: flex;
-  text-align: right;
-  justify-content: right;
-  margin: 0 auto;
-}
-
-.background-1 {
-  background-color: #b4b4b4;
-}
-
-.save {
-  cursor: pointer;
-}
-
