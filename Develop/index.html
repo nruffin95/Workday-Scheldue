@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -28,6 +29,7 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
       <!-- Timeblocks go here -->
       <div class="container">
         <div class="row">
@@ -36,43 +38,14 @@
             <div class="text-1">9AM</div>
           </div>
           <!-- Work Input Section -->
-          <input type="text" class="work-section col-10 border border-2 background-1">
+          <input type="text" id="title" class="col-10 border border-2 background-1 turnClass">
           <!-- Folder Icon -->
           <div class="col-1 save">
-            <button>Save task</button>
+            <i class="fas fa-save"></i>
           </div>
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <!-- Time Section -->
-          <div class="col-1 border-1">
-            <div class="text-1">10AM</div>
-          </div>
-          <!-- Work Input Section -->
-          <input type="text" class="work-section col-10 border border-2 background-1">
-          <!-- Folder Icon -->
-          <div class="col-1 save">
-            <button>Save task</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row">
-          <!-- Time Section -->
-          <div class="col-1 border-1">
-            <div class="text-1">11AM</div>
-          </div>
-          <!-- Work Input Section -->
-          <input type="text" class="work-section col-10 border border-2 background-1">
-          <!-- Folder Icon -->
-          <div class="col-1 save">
-            <button id="btn">Save task</button>
-          </div>
-        </div>
-      </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
     <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
