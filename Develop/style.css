@@ -69,3 +69,31 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+/* Style Overrides For Bootstrap */
+
+.border-1 {
+  border-top: dotted;
+  border-right: 1px solid black;
+}
+
+.text-1 {
+  display: flex;
+  text-align: right;
+  justify-content: right;
+  margin: 0 auto;
+}
+
+.background-1 {
+  background-color: #b4b4b4;
+}
+
+.background-2{
+  background-color: teal;
+}
+
+.bi {
+  color: white;
+  height: 100px;
+  cursor: pointer;
+}
